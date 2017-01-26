@@ -1,0 +1,53 @@
+/****************
+Date: August 8, 2016
+Developer: Kahina Mouelouel
+about: redesign the Billing page and sign in
+
+****************/
+body{
+  background: #f6f6f6 center top;
+  margin: 0px;
+  padding: 0px;
+    font-family: "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+}
+
+#header #nav_bar{
+    border:3px dashed blue;
+    height: 120px;
+    background-color: white;
+}
+#header img{
+    margin:0px;
+    padding: 20px 0 0 50px;
+}
+#header #mainNavBar{
+    margin-left:120px;
+    position: relative;
+}
+#header #mainNavBar ul{
+    position:absolute;
+    top:44px;
+    right:120px;
+    margin: 0;
+    padding: 0px;
+    font-weight:bolder;
+    font-size:20px;
+
+}
+#header #mainNavBar li{
+    list-style: none;
+    display: inline;
+    margin: 0;
+    padding: 0 0 0 30px;
+    color:black;
+}
+#header #mainNavBar a{
+    color:black;
+
+}
+#header #mainNavBar button{
+    background: orange;
+    width: 100px;
+    text-align: center;
+    border: none;
+}

@@ -1,0 +1,157 @@
+/********
+date: auguest 13, 2016
+ Auteur : Kahina Mouelouel
+ Note: following the desing
+
+*********/
+
+html, body, div{
+ margin:0px;
+ padding:0px;
+}
+
+body{
+    background: #FFFFFF  url(../img/fond-body.jpg) center top no-repeat;
+    font-family: Verdana, Arial, sans-serif;
+    color:#373737;
+    font-size: 12px;
+}
+a{
+    color:#fff;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+img{
+    border:none;
+}
+#wrapper{
+    width:940px;
+    margin:0 auto 0 auto;
+}
+#header{
+    position:relative;
+    height:121px ;
+}
+#header h1{
+    margin:0px;
+    padding: 25px 0 0 0px;
+}
+#header #nav{
+    position:absolute;
+    top:44px;
+    right: 0px;
+    margin:0;
+    padding:0px;
+    font-size:18px;
+
+}
+#header #nav li{
+    list-style:none;
+    display:inline;
+    margin: 0px;
+    padding:0 0 0 20px;
+}
+.font{
+    font-family: 'Open Sans', sans-serif;
+}
+#accroche h2{
+    margin:68px 0 0 0px;
+    padding: 0px;
+    color: #FFFFFF;
+    font-size:40px;
+    text-align: center;
+}
+#accroche p{
+    font-size:21px;
+    font-family: Georgia;
+    text-align: center;
+    margin: 20px 0 0 0px;
+}
+#accroche #boite{
+margin:55px 0 0 400px;
+}
+blockquote{
+    background: #fff url(../img/blockquotes.jpg) 65px 10px no-repeat;
+    width: 696px; /*  940-120-65=753*/
+    padding: 0 122px 0 122px;
+    margin: 0px;
+}
+blockquote p{
+    text-align: justify;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size:16px;
+    line-height: 30px;
+}
+#side_gauche{
+    width:460px;
+    float:left;
+    margin:50px 80px 0  0;
+}
+
+h3{
+    color:#1a8aaf;
+    font-size:24px;
+    margin:0 0 19px 0px;
+    padding: 0px;
+}
+h4{
+    font-size:18px;
+    margin: 0 0 0 0px;
+}
+#side_gauche .news .vignette{
+    float: left;
+    margin:0 40px 0 0px
+}
+#side_gauche .news{
+
+    margin:0 0 20px 0px
+}
+#side_gauche p{
+    margin:9px 0 8px 0px;
+    padding: 0px;
+    line-height: 15px;
+    }
+.more{
+    display: block;
+    width:300px;
+    height: 37px;
+    padding: 10px 0 0 36px;
+    margin: 0px;
+    background: url(../img/bouton-lire-suite.png) left top no-repeat ;
+}
+.description{
+    float: left;
+    width: 300px;
+
+}
+.clear{
+    clear: both;
+}
+#side_droit{
+    width:400px;
+    float:left;
+    height: 217px;
+    margin:50px 0 0  0px;
+}
+#download{
+    height: 217px;
+    background: url(../img/box-blue.png) left top no-repeat;
+}
+#download #bt_download{
+    margin:15px 0 0  154px;
+}
+#download p{
+    color:#FFFFFF;
+    text-align: justify;
+  margin-top: 33px;
+    padding:0 16px 0 16px;
+}
+#footer{
+    height: 55px;
+    background-color:#373737;
+    text-align: center;
+    padding: 25px 0 0 0;
+}

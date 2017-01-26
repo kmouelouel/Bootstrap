@@ -1,0 +1,15 @@
+/********
+Date : August 6, 2016
+Auteur : Kahina Mouelouel
+Version : 1.0
+
+Projet : Template  tripit pro billing
+***/
+
+body {
+    background :   url(images/travaling.jpg) center top no-repeat;
+    background-size: 100%;
+    font-family: Verdana, Arial, sans-serif;
+    color:#373737;
+    font-size:12px;
+}
